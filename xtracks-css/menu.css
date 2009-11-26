@@ -1,0 +1,131 @@
+.nav_container {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: small;
+    float: left;
+    padding: 10px 10px 0 5px;
+    position: relative;
+    width: 184px;
+    /*border-right: 5px solid #CCCCCC;*/
+    background-color:#FFFFFF;
+}
+
+li.nav_active {
+    font-weight:bold;
+}
+
+.navbox {
+    background-color:#CCCCCC;
+    border:4px solid #FFFFFF;
+    padding:1px;
+    width:180px;
+    z-index:100000;
+}
+
+.navbox .navtitle {
+    background-image: url(/xtracks-img/navbox_header_bg.gif);
+    height: 17px;
+    margin: 0;
+    padding: 3px 3px 3px 7px;
+}
+
+.navbox .navbody {
+    background-color: #FFFFFF;
+    font-size: 11px;
+    margin: 0;
+    text-align: left;
+}
+
+.navbox .navbody ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbox .navbody ul li {
+    background-image: url(/xtracks-img/arrow.gif);
+    background-position: left center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #EEEEEE;
+    display: list-item;
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 6px 0 5px 11px;
+    text-align: left;
+}
+
+.navbox .navbody ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbottom {
+    background-image: url(/xtracks-img/bottom_box.gif);
+    cursor: pointer;
+    height: 7px;
+    line-height: 0;
+    padding-top: 2px;
+    text-align: center;
+}
+
+.navbottom .bottom_arrow {
+    background-image: url(/xtracks-img/bottom_arrow.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 6px;
+    margin-left: 85px;
+}
+
+.box_title {
+    float: left;
+    font-size: 11px;
+}
+
+.box_toggle {
+    background-position: left top;
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 10px;
+    font-size: 1px;
+    -moz-user-focus: ignore;
+    -moz-user-select: none;
+    clear: right;
+    cursor: pointer;
+    float: right;
+    margin-right: 2px;
+    margin-top: 2px;
+}
+
+.box_toggle.open {
+    background-image: url(/xtracks-img/close_button.gif);
+}
+
+.box_toggle.close {
+    background-image: url(/xtracks-img/open_button.gif);
+}
+
+#logo_small {
+    background-image: url(/xtracks-img/logo_small.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    width: 187px;
+    height: 77px;
+    margin: 0 0 0 3px;
+}
+
+
+/* Overrides */
+
+body {
+    background: #FFFFFF;
+    max-width: 1680px;
+}
+
+.body {
+    float: left;
+    background: #FFFFFF;
+}
+
+.body-content {
+    background: #FFFFFF;
+    padding: 0 20px;
+}

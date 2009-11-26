@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+
+RewriteEngine on
+
+RewriteRule .* /xtracks-404.php [L]
+
